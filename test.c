@@ -12,5 +12,4 @@ int main(void) {
     } else {
         printf("0입니다.\n");
     }
-    
 }
