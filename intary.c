@@ -13,15 +13,15 @@ int maxof(const int a[], int elem_num) {
 
 int main(void) {
     int number;
-    printf("ì‚¬ëŒ ìˆ˜:");
+    printf("»ç¶÷ ¼ö:");
     scanf("%d", &number);
     int *height = calloc(number, sizeof(int));
-    printf("%dëª…ì˜ í‚¤ë¥¼ ì…ë ¥í•˜ì„¸ìš”.\n", number);
+    printf("%d¸íÀÇ Å°¸¦ ÀÔ·ÂÇÏ¼¼¿ä.\n", number);
     for (int i = 0; i < number; i++) {
         printf("height[%d]:", i);
         scanf("%d", &height[i]);
     }
-    printf("ìµœëŒ“ê°’ì€ %d ì…ë‹ˆë‹¤.\n", maxof(height, number));
+    printf("ÃÖ´ñ°ªÀº %d ÀÔ´Ï´Ù.\n", maxof(height, number));
     free(height);
     return 0;
 }
