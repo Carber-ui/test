@@ -12,8 +12,7 @@ int main(void){
         int i;
         int flag = 0;
 
-        for (i = 1; prime[i]*prime[i] <= n; i++){
-            counter++;
+        for (i = 1; counter++, prime[i]*prime[i] <= n; i++){
             if (n % prime[i] == 0){
                 flag = 1;
                 break;
