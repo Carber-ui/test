@@ -28,7 +28,7 @@ int main(void){
     }
     printf("\n");
 
-    printf("나눗셈 연산 횟수: %lu\n", counter);
+    printf("나눗셈 연산 횟수: %lu\n", counter); 
 
     return 0;
 }
